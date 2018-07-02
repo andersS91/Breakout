@@ -1,0 +1,26 @@
+﻿  game.cpp
+  main.cpp
+c:\projects\breakout\breakout\breakout\main.h(15): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
+  resource_manager.cpp
+c:\projects\breakout\breakout\breakout\resource_manager.cpp(37): error C2248: 'Texture2D::ID': cannot access private member declared in class 'Texture2D'
+  c:\projects\breakout\breakout\breakout\texture.h(9): note: see declaration of 'Texture2D::ID'
+  c:\projects\breakout\breakout\breakout\texture.h(7): note: see declaration of 'Texture2D'
+c:\projects\breakout\breakout\breakout\resource_manager.cpp(87): error C2248: 'Texture2D::Texture2D': cannot access private member declared in class 'Texture2D'
+  c:\projects\breakout\breakout\breakout\texture.h(23): note: see declaration of 'Texture2D::Texture2D'
+  c:\projects\breakout\breakout\breakout\texture.h(7): note: see declaration of 'Texture2D'
+c:\projects\breakout\breakout\breakout\resource_manager.cpp(90): error C2248: 'Texture2D::Internal_Format': cannot access private member declared in class 'Texture2D'
+  c:\projects\breakout\breakout\breakout\texture.h(14): note: see declaration of 'Texture2D::Internal_Format'
+  c:\projects\breakout\breakout\breakout\texture.h(7): note: see declaration of 'Texture2D'
+c:\projects\breakout\breakout\breakout\resource_manager.cpp(91): error C2248: 'Texture2D::Image_Format': cannot access private member declared in class 'Texture2D'
+  c:\projects\breakout\breakout\breakout\texture.h(15): note: see declaration of 'Texture2D::Image_Format'
+  c:\projects\breakout\breakout\breakout\texture.h(7): note: see declaration of 'Texture2D'
+c:\projects\breakout\breakout\breakout\resource_manager.cpp(95): error C2248: 'Texture2D::Image_Format': cannot access private member declared in class 'Texture2D'
+  c:\projects\breakout\breakout\breakout\texture.h(15): note: see declaration of 'Texture2D::Image_Format'
+  c:\projects\breakout\breakout\breakout\texture.h(7): note: see declaration of 'Texture2D'
+c:\projects\breakout\breakout\breakout\resource_manager.cpp(95): error C2065: 'SOIL_LOAD_RGBA': undeclared identifier
+c:\projects\breakout\breakout\breakout\resource_manager.cpp(95): error C2065: 'SOIL_LOAD_RGB': undeclared identifier
+c:\projects\breakout\breakout\breakout\resource_manager.cpp(95): error C3861: 'SOIL_load_image': identifier not found
+c:\projects\breakout\breakout\breakout\resource_manager.cpp(97): error C2248: 'Texture2D::Generate': cannot access private member declared in class 'Texture2D'
+  c:\projects\breakout\breakout\breakout\texture.h(26): note: see declaration of 'Texture2D::Generate'
+  c:\projects\breakout\breakout\breakout\texture.h(7): note: see declaration of 'Texture2D'
+c:\projects\breakout\breakout\breakout\resource_manager.cpp(99): error C3861: 'SOIL_free_image_data': identifier not found

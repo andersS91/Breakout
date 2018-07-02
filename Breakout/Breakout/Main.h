@@ -12,3 +12,6 @@
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
 #include <random>
+#include <glew.h>
+#include "game.h"
+#include "resource_manager.h"
